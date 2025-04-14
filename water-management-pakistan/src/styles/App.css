@@ -1,0 +1,195 @@
+/* Base styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #1890ff;
+  color: white;
+  border-radius: 8px;
+}
+
+.app-header h1 {
+  margin: 0;
+}
+
+.subtitle {
+  margin: 5px 0 0;
+  font-style: italic;
+}
+
+/* Dashboard layout */
+.dashboard-container {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 20px;
+}
+
+.control-panel {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Region selector */
+.region-selector {
+  margin-bottom: 20px;
+}
+
+.region-dropdown {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+}
+
+.region-info {
+  padding: 10px;
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+/* Water status */
+.water-status {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.status-indicator {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.status-level {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.status-details {
+  margin-top: 15px;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.detail-label {
+  font-weight: bold;
+}
+
+/* Data visualization */
+.data-visualization {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container {
+  height: 300px;
+  margin-top: 15px;
+}
+
+/* Action list */
+.action-list {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.solutions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.solution-card {
+  padding: 15px;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  background: #fafafa;
+}
+
+.solution-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.ngo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.ngo-list li {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.ngo-list a {
+  color: #1890ff;
+  text-decoration: none;
+}
+
+.ngo-list a:hover {
+  text-decoration: underline;
+}
+
+.personal-actions ul {
+  padding-left: 20px;
+}
+
+/* Map view */
+.map-view {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.map-container {
+  margin-top: 15px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .dashboard-container {
+    grid-template-columns: 1fr;
+  }
+}
