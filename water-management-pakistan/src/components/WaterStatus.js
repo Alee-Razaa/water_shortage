@@ -19,7 +19,7 @@ const getStatusColor = (status) => {
 const WaterStatus = ({ region }) => {
   return (
     <div className="water-status">
-      <h2>Water Status</h2>
+      <h2>Shortage Status</h2>
       <div className="status-indicator">
         <div
           className="status-level"

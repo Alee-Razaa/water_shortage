@@ -23,7 +23,7 @@ const DataVisualization = ({ region }) => {
     plugins: {
       title: {
         display: true,
-        text: `Rainfall Trends in ${region.name} (2018-2022)`,
+        text: `Rainfall Trends in ${region.name} (2018-2025)`,
       },
     },
     scales: {

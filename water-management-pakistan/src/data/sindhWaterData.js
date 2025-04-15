@@ -13,7 +13,10 @@ export const sindhWaterData = {
         { year: 2019, rainfall: 90 },
         { year: 2020, rainfall: 110 },
         { year: 2021, rainfall: 140 },
-        { year: 2022, rainfall: 100 },
+        { year: 2022, rainfall: 140 },
+        { year: 2023, rainfall: 90 },
+        { year: 2024, rainfall: 105 },
+        { year: 2025, rainfall: 95 },
       ],
       waterSources: ["Rainwater", "Limited groundwater", "Water tankers"],
       mainChallenges: [
@@ -52,16 +55,10 @@ export const sindhWaterData = {
           projects: ["Reverse osmosis plants", "Water distribution systems"],
         },
         {
-          name: "HANDS Pakistan",
-          contact: "water@hands.org.pk",
-          focus: "Community water solutions",
-          projects: ["Hand pumps installation", "Water conservation training"],
-        },
-        {
-          name: "SRSO",
-          contact: "water@srso.org.pk",
-          focus: "Sustainable water access",
-          projects: ["Pond rehabilitation", "Water management committees"],
+          name: "Sindh Rural Support Organization - SRSO",
+          contact: "info@srso.org.pk",
+          focus: "Water and sanitation",
+          projects: ["Water filtration plants", "Hygiene education"],
         },
       ],
       governmentInitiatives: [
@@ -84,6 +81,9 @@ export const sindhWaterData = {
         { year: 2020, rainfall: 180 },
         { year: 2021, rainfall: 260 },
         { year: 2022, rainfall: 230 },
+        { year: 2023, rainfall: 180 },
+        { year: 2024, rainfall: 205 },
+        { year: 2025, rainfall: 195 },
       ],
       waterSources: ["Indus River canals", "Groundwater", "Rainwater"],
       mainChallenges: [
@@ -116,7 +116,7 @@ export const sindhWaterData = {
         },
         {
           name: "TRDP",
-          contact: "info@trdp.org.pk",
+          contact: "info@thardeep.org",
           focus: "Community development",
           projects: ["Water user associations", "Small-scale irrigation"],
         },
@@ -139,8 +139,11 @@ export const sindhWaterData = {
         { year: 2018, rainfall: 150 },
         { year: 2019, rainfall: 130 },
         { year: 2020, rainfall: 170 },
-        { year: 2021, rainfall: 190 },
-        { year: 2022, rainfall: 160 },
+        { year: 2021, rainfall: 160 },
+        { year: 2022, rainfall: 190 },
+        { year: 2023, rainfall: 180 },
+        { year: 2024, rainfall: 150 },
+        { year: 2025, rainfall: 125 },
       ],
       waterSources: ["Rainwater", "Groundwater", "Nara Canal"],
       mainChallenges: [
@@ -166,8 +169,8 @@ export const sindhWaterData = {
       ],
       ngos: [
         {
-          name: "Sindh Rural Support Organization",
-          contact: "contact@sindhrso.org",
+          name: "Sindh Rural Support Organization - SRSO",
+          contact: "info@srso.org.pk",
           focus: "Water and sanitation",
           projects: ["Water filtration plants", "Hygiene education"],
         },
@@ -192,6 +195,9 @@ export const sindhWaterData = {
         { year: 2020, rainfall: 210 },
         { year: 2021, rainfall: 220 },
         { year: 2022, rainfall: 200 },
+        { year: 2023, rainfall: 180 },
+        { year: 2024, rainfall: 205 },
+        { year: 2025, rainfall: 175 },
       ],
       waterSources: ["Nara Canal", "Rainwater", "Groundwater"],
       mainChallenges: [
@@ -218,7 +224,7 @@ export const sindhWaterData = {
       ngos: [
         {
           name: "Sindh Community Foundation",
-          contact: "water@scf.org.pk",
+          contact: "sindhfoundation@scfngo.org",
           focus: "Sustainable water use",
           projects: ["Farmer education", "Water conservation techniques"],
         },
@@ -243,6 +249,9 @@ export const sindhWaterData = {
         { year: 2020, rainfall: 230 },
         { year: 2021, rainfall: 240 },
         { year: 2022, rainfall: 220 },
+        { year: 2023, rainfall: 180 },
+        { year: 2024, rainfall: 205 },
+        { year: 2025, rainfall: 195 },
       ],
       waterSources: ["Rainwater", "Groundwater", "Canals"],
       mainChallenges: [
@@ -269,7 +278,7 @@ export const sindhWaterData = {
       ngos: [
         {
           name: "WaterAid Pakistan",
-          contact: "sindh@wateraid.org",
+          contact: "supportercare@wateraid.org",
           focus: "Urban water solutions",
           projects: ["Water kiosks", "Sanitation programs"],
         },
@@ -294,6 +303,9 @@ export const sindhWaterData = {
         { year: 2020, rainfall: 250 },
         { year: 2021, rainfall: 290 },
         { year: 2022, rainfall: 280 },
+        { year: 2023, rainfall: 180 },
+        { year: 2024, rainfall: 205 },
+        { year: 2025, rainfall: 195 },
       ],
       waterSources: ["Indus River", "Lakes", "Rainwater"],
       mainChallenges: [
@@ -320,7 +332,7 @@ export const sindhWaterData = {
       ngos: [
         {
           name: "Indus Earth Trust",
-          contact: "water@indusearth.org",
+          contact: "example.@indusearth.org",
           focus: "Coastal water management",
           projects: ["Mangrove conservation", "Fisheries water solutions"],
         },
@@ -345,6 +357,9 @@ export const sindhWaterData = {
         { year: 2020, rainfall: 200 },
         { year: 2021, rainfall: 210 },
         { year: 2022, rainfall: 190 },
+        { year: 2023, rainfall: 180 },
+        { year: 2024, rainfall: 205 },
+        { year: 2025, rainfall: 195 },
       ],
       waterSources: ["Rainwater", "Groundwater", "Canals"],
       mainChallenges: [
@@ -371,7 +386,7 @@ export const sindhWaterData = {
       ngos: [
         {
           name: "Sindh Agricultural and Forestry Workers",
-          contact: "info@safw.org.pk",
+          contact: "example.@safw.org",
           focus: "Agricultural water use",
           projects: ["Water conservation training", "Efficient irrigation"],
         },
@@ -396,6 +411,9 @@ export const sindhWaterData = {
         { year: 2020, rainfall: 160 },
         { year: 2021, rainfall: 170 },
         { year: 2022, rainfall: 150 },
+        { year: 2023, rainfall: 160 },
+        { year: 2024, rainfall: 125 },
+        { year: 2025, rainfall: 140 },
       ],
       waterSources: ["Indus River", "Sukkur Barrage", "Groundwater"],
       mainChallenges: [
@@ -421,10 +439,10 @@ export const sindhWaterData = {
       ],
       ngos: [
         {
-          name: "Hisar Foundation",
-          contact: "water@hisar.org.pk",
-          focus: "Urban water solutions",
-          projects: ["School water programs", "Public awareness"],
+          name: "Sindh Rural Support Organization - SRSO",
+          contact: "info@srso.org.pk",
+          focus: "Water and sanitation",
+          projects: ["Water filtration plants", "Hygiene education"],
         },
       ],
       governmentInitiatives: [

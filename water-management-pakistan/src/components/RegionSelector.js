@@ -30,4 +30,3 @@ const RegionSelector = ({ regions, selectedRegion, onRegionChange }) => {
 };
 
 export default RegionSelector;
-// This component allows users to select a region from a dropdown menu.

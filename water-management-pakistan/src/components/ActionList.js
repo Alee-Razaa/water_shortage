@@ -1,5 +1,5 @@
 import React from "react";
-
+import PersonalActions from "./PersonalActions";
 const ActionList = ({ region }) => {
   return (
     <div className="action-list">
@@ -34,15 +34,7 @@ const ActionList = ({ region }) => {
         </ul>
       </div>
 
-      <div className="personal-actions">
-        <h3>What You Can Do</h3>
-        <ul>
-          <li>Conserve water in your daily activities</li>
-          <li>Support local water conservation initiatives</li>
-          <li>Spread awareness about water scarcity</li>
-          <li>Donate to organizations working in this region</li>
-        </ul>
-      </div>
+      <PersonalActions />
     </div>
   );
 };
