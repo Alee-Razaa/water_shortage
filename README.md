@@ -56,7 +56,7 @@ A data-driven, web-based system to monitor, predict, and visualize water scarcit
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/water-scarcity-dashboard.git](https://github.com/Alee-Razaa/water_shortage.git)
+git clone https://github.com/Alee-Razaa/water_shortage.git
 cd water-scarcity-dashboard
 ````
 
